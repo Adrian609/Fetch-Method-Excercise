@@ -22,10 +22,10 @@ Open fetch.html in browser
 ## Features
 
 Uses JavaScripts Fetch Method by:
-* Fetch text files
-* Fetch JSON files
-* Fetch API's
-* Stringify simulated blog post
+* Fetching text files that are locally saved
+* Fetching JSON files that are locally saved
+* Fetching API's from URL
+* Stringify simulated blog post inputed by a user
 
 #### function getText() / getText2()
 Type: `String`  
