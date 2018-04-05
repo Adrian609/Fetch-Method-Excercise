@@ -1,6 +1,6 @@
 # Screenshots
-![Get User](FetchAPI-1.JPG)
-![Get Post](FetchAPI-2.JPG)
+![Get User](images/FetchAPI-1.JPG)
+![Get Post](images/FetchAPI-2.JPG)
 
 # Fetch Method Exercises
 > Praticing JavaScripts ES6 fetch methods variations
