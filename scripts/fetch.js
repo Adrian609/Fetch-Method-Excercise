@@ -21,7 +21,7 @@ function getText2() {
 }
 
 function getUsers() {
-    fetch('https://jsonplaceholder.typicode.com/users').then((res) => res.json()).then((data) => {
+    fetch(/*'https://jsonplaceholder.typicode.com/users'*/'scripts/users.json').then((res) => res.json()).then((data) => {
         let output = '<h2 class="mb-4">Users</h2>';
         data.forEach(function (users) {
             output += `
