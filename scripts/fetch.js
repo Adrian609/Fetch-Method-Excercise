@@ -16,7 +16,8 @@ function getText() {
 
 function getText2() {
     fetch("sample.txt").then((res) => res.text()).then((data) => {
-        document.getElementById('output').innerHTML = data;
+        let output = '<h2 class="mb-4">Sample Text Displayed</h2>';
+         document.getElementById('output').innerHTML = output+= data;
     }).catch((err) => console.log(err));
 }
 
